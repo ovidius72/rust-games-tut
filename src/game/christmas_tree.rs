@@ -2,7 +2,7 @@ use crate::common::utils::{convert_string_to_int, read_line};
 
 pub fn run() {
     loop {
-        print!("Enter a number from 1 to 100 (or q to exit): ");
+        print!("Enter a number from 1 to 100 (or q to return the main menu): ");
         let mut input = String::new();
         let input = read_line(&mut input);
         if input == "q" {

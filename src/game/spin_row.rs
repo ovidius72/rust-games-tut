@@ -76,7 +76,7 @@ pub fn run() {
             break;
         }
 
-        print!("Enter you bet or (q) to quit: ");
+        print!("Enter you bet or (q) to return the main menu: ");
         input = utils::read_line(&mut input);
 
         if input == "q" {

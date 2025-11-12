@@ -5,7 +5,7 @@ pub fn run() {
     println!("**********************************************");
     loop {
         let mut input = String::new();
-        println!("Enter a number. q to exit: ");
+        println!("Enter a number. q return the main menu: ");
         let input = utils::read_line(&mut input);
         if input == "q" {
             break;
