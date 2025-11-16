@@ -15,7 +15,7 @@ pub fn run() {
         }
 
         let tot_row = n * 2;
-        for col in 0..=(n) {
+        for col in 0..=n {
             for row in 0..=tot_row {
                 let half = tot_row / 2;
                 let mut symbol = if row == half { "|" } else { " " };
